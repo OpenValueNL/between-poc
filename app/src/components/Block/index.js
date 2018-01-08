@@ -12,14 +12,6 @@ class Block extends Component {
     var account = web3.eth.accounts[0].toString(10);
     // var opdrachten =  web3.eth.getCompilers();
 
-    
-    var txs = [];
-    for(var i = 0; i < curr_block_no; i++) {
-        var block = web3.eth.getBlock(i, true);
-        for(var j = 0; j < block.transactions; j++) {
-          txs.push(block.transactions[j]);
-        }
-    }
 
     return (
       <div>
