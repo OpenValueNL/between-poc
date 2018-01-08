@@ -2,3 +2,4 @@
 
 *.iml
 
+./app/node_modules
